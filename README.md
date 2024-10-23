@@ -27,7 +27,7 @@ Este proyecto implementa un pipeline de datos completo para extraer, transformar
 # Índice
 
 1. [Estructura del Proyecto](#estructura-del-proyecto)
-2. [Arquitectura del Proyecto](#arquitectura_del_proyecto)
+2. [Arquitectura del Proyecto](#arquitectura-del-proyecto)
 3. [Resultados](#resultados)
 4. [Cómo Correr el Proyecto](#cómo-correr-el-proyecto)
 5. [Retroalimentación](#retroalimentación)
