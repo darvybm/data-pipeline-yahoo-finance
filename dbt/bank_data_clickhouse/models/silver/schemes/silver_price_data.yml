@@ -1,0 +1,34 @@
+version: 2
+
+models:
+  - name: silver_price_data  # Cambia a tu nombre de modelo real
+    description: "Modelo Silver que contiene datos de precios de acciones."
+    columns:
+      - name: symbol
+        description: "Símbolo de la acción."
+        tests:
+          - not_null
+      - name: date
+        description: "Fecha de la información de precios."
+        tests:
+          - not_null
+      - name: open_price
+        description: "Precio de apertura de la acción."
+        tests:
+          - not_null
+      - name: high_price
+        description: "Precio más alto alcanzado durante el día."
+        tests:
+          - not_null
+      - name: low_price
+        description: "Precio más bajo alcanzado durante el día."
+        tests:
+          - not_null
+      - name: close_price
+        description: "Precio de cierre de la acción."
+        tests:
+          - not_null
+      - name: volume
+        description: "Volumen de acciones transaccionadas."
+        tests:
+          - not_null

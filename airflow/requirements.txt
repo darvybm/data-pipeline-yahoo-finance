@@ -1,0 +1,5 @@
+yfinance
+airbyte-api
+apache-airflow-providers-airbyte
+apache-airflow-providers-airbyte[http]
+dbt-clickhouse

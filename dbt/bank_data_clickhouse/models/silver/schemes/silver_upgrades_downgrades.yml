@@ -1,0 +1,30 @@
+version: 2
+
+models:
+  - name: silver_upgrades_downgrades  # Cambia a tu nombre de modelo real
+    description: "Modelo Silver que contiene datos de actualizaciones y degradaciones."
+    columns:
+      - name: symbol
+        description: "Símbolo de la acción."
+        tests:
+          - not_null
+      - name: firm
+        description: "Firma o entidad que realiza la calificación."
+        tests:
+          - not_null
+      - name: from_grade
+        description: "Calificación anterior de la acción."
+        tests:
+          - not_null
+      - name: to_grade
+        description: "Nueva calificación de la acción."
+        tests:
+          - not_null
+      - name: action
+        description: "Tipo de acción: Upgrade o Downgrade."
+        tests:
+          - not_null
+      - name: date
+        description: "Fecha de la acción de calificación."
+        tests:
+          - not_null

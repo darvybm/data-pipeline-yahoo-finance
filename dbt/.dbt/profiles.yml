@@ -1,0 +1,11 @@
+bank_data_clickhouse:
+  target: dev
+  outputs:
+    dev:
+      type: clickhouse
+      schema: bank_data_olap
+      host: host.docker.internal
+      port: 8123  # Puerto por defecto de ClickHouse
+      user: "darvybm"
+      password: "Darvy!BM"
+      secure: False  # Cambia a true si usas HTTPS

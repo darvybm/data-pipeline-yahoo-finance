@@ -1,0 +1,3 @@
+yfinance
+dbt-clickhouse
+python-dotenv

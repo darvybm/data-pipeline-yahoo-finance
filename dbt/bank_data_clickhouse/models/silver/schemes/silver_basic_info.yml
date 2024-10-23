@@ -1,0 +1,37 @@
+version: 2
+
+models:
+  - name: silver_basic_info  # Reemplaza con el nombre de tu modelo silver
+    description: "Modelo Silver que contiene información básica de empresas, con datos validados."
+    columns:
+      - name: symbol
+        description: "Símbolo de la empresa."
+        tests:
+          - not_null
+          - unique
+      - name: industry
+        description: "Industria de la empresa."
+        tests:
+          - not_null
+      - name: sector
+        description: "Sector de la empresa."
+        tests:
+          - not_null
+      - name: employee_count
+        description: "Número de empleados de la empresa."
+        tests:
+          - not_null
+      - name: city
+        description: "Ciudad donde se encuentra la empresa."
+      - name: phone
+        description: "Número de teléfono de la empresa."
+      - name: state
+        description: "Estado donde se encuentra la empresa."
+      - name: country
+        description: "País donde se encuentra la empresa."
+        tests:
+          - not_null
+      - name: website
+        description: "Sitio web de la empresa."
+      - name: address
+        description: "Dirección de la empresa."

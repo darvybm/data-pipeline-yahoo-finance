@@ -1,0 +1,26 @@
+version: 2
+
+models:
+  - name: silver_holders
+    description: "Modelo Silver que contiene información sobre los tenedores de acciones."
+    columns:
+      - name: symbol
+        description: "Símbolo de la empresa."
+        tests:
+          - not_null
+      - name: holder
+        description: "Nombre del tenedor de acciones."
+        tests:
+          - not_null
+      - name: shares
+        description: "Número de acciones que posee el tenedor."
+        tests:
+          - not_null
+      - name: value
+        description: "Valor de las acciones que posee el tenedor."
+        tests:
+          - not_null
+      - name: date
+        description: "Fecha de la información del tenedor."
+        tests:
+          - not_null

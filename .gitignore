@@ -1,0 +1,5 @@
+# Ignorar en todo el entorno
+venv/
+__pycache__/
+*.py[cod]
+logs/

@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: bank_data_olap
+    tables:
+      - name: public_raw__stream_holders
+      - name: public_raw__stream_fundamentals
+      - name: public_raw__stream_basic_info
+      - name: public_raw__stream_price_data
+      - name: public_raw__stream_upgrades_downgrades

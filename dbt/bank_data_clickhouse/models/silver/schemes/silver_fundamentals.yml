@@ -1,0 +1,27 @@
+version: 2
+
+models:
+  - name: silver_fundamentals  # Reemplaza con el nombre de tu modelo silver
+    description: "Modelo Silver que contiene información de fundamentos financieros de empresas."
+    columns:
+      - name: symbol
+        description: "Símbolo de la empresa e identificador unico"
+        tests:
+          - not_null
+          - unique
+      - name: assets
+        description: "Activos totales de la empresa."
+        tests:
+          - not_null
+      - name: debt
+        description: "Deuda total de la empresa."
+        tests:
+          - not_null
+      - name: invested_capital
+        description: "Capital invertido en la empresa."
+        tests:
+          - not_null
+      - name: shares_issued
+        description: "Número de acciones emitidas por la empresa."
+        tests:
+          - not_null
