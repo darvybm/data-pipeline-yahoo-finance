@@ -22,14 +22,12 @@
 
 Este proyecto implementa un pipeline de datos completo para extraer, transformar y cargar (ETL) información de bancos que cotizan en la bolsa de valores de los Estados Unidos desde la API de Yahoo Finance. El pipeline está diseñado para cumplir con los estándares técnicos más rigurosos de integración y validación de datos, y todo está configurado en un entorno Docker.
 
-Aquí tienes el índice con enlaces para cada sección:
-
 ---
 
 # Índice
 
 1. [Estructura del Proyecto](#estructura-del-proyecto)
-2. [Diagrama de Arquitectura del Proyecto](#diagrama-de-arquitectura_del_proyecto)
+2. [Arquitectura del Proyecto](#arquitectura_del_proyectoo)
 3. [Resultados](#resultados)
 4. [Cómo Correr el Proyecto](#cómo-correr-el-proyecto)
 5. [Retroalimentación](#retroalimentación)
@@ -59,7 +57,7 @@ El pipeline completo está orquestado con **Apache Airflow**, lo que automatiza 
 
 Abosultamente todos los servicios están corriendo en un servicio de docker, dentro de un docker compose, a excepción de los que se descargan como librerías claro, como DBT.
 
-## Diagrama de Arquitectura del Proyecto
+## Arquitectura del Proyecto
 
 ![Diagrama](https://github.com/user-attachments/assets/c5f22e71-0a42-420e-ac2e-f45720822b3b)
 
