@@ -16,4 +16,4 @@ SELECT
     action,
     CAST(date AS Date) AS date
 FROM extracted_data
-WHERE EXTRACT(YEAR FROM date) IN (2023, 2024)c
+WHERE EXTRACT(YEAR FROM date) IN (2023, 2024)
