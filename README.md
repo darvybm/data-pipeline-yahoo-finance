@@ -29,9 +29,9 @@ Aquí tienes el índice con enlaces para cada sección:
 # Índice
 
 1. [Estructura del Proyecto](#estructura-del-proyecto)
-2. [Diagrama de Arquitectura](#diagrama-de-arquitectura)
+2. [Diagrama de Arquitectura del Proyecto](#diagrama-de-arquitectura_del_proyecto)
 3. [Resultados](#resultados)
-4. [Cómo Correr el Proyecto](#Cómo-Correr-el-Proyecto)
+4. [Cómo Correr el Proyecto](#cómo-correr-el-proyecto)
 5. [Retroalimentación](#retroalimentación)
 6. [Conclusión](#conclusión)
 
