@@ -24,6 +24,9 @@ Este proyecto implementa un pipeline de datos completo para extraer, transformar
 
 ---
 
+> [!Note]
+> Los archivos `.env` se han dejado intencionadamente en el repositorio. Dado que este proyecto tiene fines evaluativos, su presencia facilitará la ejecución del pipeline para aquellos que deseen probarlo.
+
 # Índice
 
 1. [Estructura del Proyecto](#estructura-del-proyecto)
